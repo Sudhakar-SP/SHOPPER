@@ -1,0 +1,114 @@
+/* Banner */
+.shopcategory-banner {
+  display: block;
+  width: 82%;
+  margin: 30px auto;
+  margin-top: 80px;
+}
+
+/* Controls section (count + sort) */
+.shopcategory-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px 20px 40px;
+  padding: 10px 0;
+}
+
+/* Showing count text */
+.shopcategory-controls .shopcategory-count {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.shopcategory-controls .shopcategory-count span {
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Sort dropdown */
+.shopcategory-controls .shopcategory-sort {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  border: 1px solid #888;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Product Grid */
+.shopcategory-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  row-gap: 80px;
+  margin: 0 40px 40px 40px;
+  padding: 0;
+}
+.shopcategory-select-wrapper {
+  display: inline-block;
+  position: relative;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 180px;
+  text-align: center;
+}
+
+.shopcategory-select-wrapper select {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  appearance: none;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.shopcategory-select-wrapper::after {
+  content: "⌄";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.shopcategory-select-wrapper:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.shopcategory-select-wrapper select:hover {
+  color: #000;
+}
+.shopcategory-loadmore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 233px;
+  height: 69px;
+  border-radius: 75px;
+  background: #ededed;
+  color: #787878;
+  font-size: 18px;
+  font-weight: 500;
+}
+.shopcategory-loadmore:hover {
+  background: #f082f0;
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,97 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Reduced gap slightly for tighter layout */
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #252525;
+    margin: 0; /* Reset margin for better alignment */
+}
+.footer-logo img {
+    width: 80px; /* Optional: ensure consistent size */
+    height: auto;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #252525;
+    justify-content: center;
+}
+
+.footer-links li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-links li:hover {
+    color: #ff4141; /* Change to your desired hover color */
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Add a little top margin */
+}
+
+.footer-icon-container {
+    width: 50px;
+    height: 50px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon-container img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+}
+
+.footer-icon-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-copyrights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  color: #1a1a1a;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+footer hr {
+  width: 100%; /* Full width */
+  max-width: 1000px; /* Optional: to limit the width nicely */
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background: #c7c7c7;
+}
+

@@ -1,0 +1,24 @@
+.relatdeproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+}
+.relatdeproducts h1{
+    color: #e6f337;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.relatdeproducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.relatedproducts-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}

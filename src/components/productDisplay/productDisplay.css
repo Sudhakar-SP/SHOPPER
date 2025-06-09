@@ -1,0 +1,123 @@
+.product-display {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  background-color: white;
+  color: #0f0f0f;
+}
+
+/* LEFT SECTION */
+.productDisplay-left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.productDisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productDisplay-img-thumb {
+  width: 80px;
+  height: 120px; /* 4 thumbnails × 120px = 480px */
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.productDisplay-main-img {
+  width: 400px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* RIGHT SIDE INFO */
+.productDisplay-right {
+  flex: 1;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.productDisplay-right h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.productDisplay-right-star {
+  display: flex;
+  gap: 8px;
+}
+
+.productDisplay-right-star img {
+  width: 60px;
+  height: 35px;
+}
+
+.productDisplay-right-price {
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productDisplay-right-price-old {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.productDisplay-right-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.productDisplay-right-size h1 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.productDisplay-right-size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.productDisplay-right-size-options div {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #f5f5f5;
+}
+.productDisplay-right-size-options div:hover {
+  background: #8a8787;
+}
+
+.productDisplay-right button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #ff4141;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.productDisplay-right button:hover {
+  background-color: #e63939;
+}
+
+.productDisplay-right-category {
+  font-size: 14px;
+  color: #444;
+}
+
+.productDisplay-right-category span {
+  font-weight: bold;
+}

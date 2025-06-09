@@ -1,0 +1,71 @@
+.newsletter {
+  width: 65%;
+  padding: 50px 100px; /* Increased padding to ensure space below input */
+  background: linear-gradient(180deg,  #75dbe0, #b4d455);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  border-radius: 20px;
+  margin: 0px auto 150px auto;
+  max-width: 900px; 
+  margin-bottom: 150px; /* Ensures space below the input */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.newsletter h1 {
+  color: #333;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.newsletter p {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.newsletter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  max-width: 730px;
+  height: 70px;
+  border-radius: 70px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+.newsletter input {
+  width: 70%;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background: none;
+}
+
+.newsletter div button {
+  width: 30%;
+  height: 70px;
+  border-radius: 80px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.newsletter div button:hover {
+  background-color: #467970;
+    transition: background-color 0.3s ease;
+}
